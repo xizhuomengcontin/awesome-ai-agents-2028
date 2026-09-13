@@ -3,6 +3,20 @@
 All notable changes to **Awesome AI Agents 2026** are recorded here.
 Format: `YYYY-MM-DD  +Added  -Removed  ~Changed`.
 
+### 2026-09-13 — PR review: ContextStream incorporated, Taskade Genesis declined (en/zh/ja)
+
+Reviewed the two open inbound PRs against CONTRIBUTING (quality gate + five-or-more-list parallel-submission rule). Catalogue count after this pass is **917 / 917 / 917** list entries (was 916). Footer date on the English README is 2026-09-13; this is a PR-review commit, not a full 25-category refresh.
+
+**PR review decisions:**
+
+| PR | Contributor | Disposition and reason |
+|---|---|---|
+| [#98](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/98) | @escott- | ContextStream is a real hosted MCP + MIT [`contextstream/mcp-server`](https://github.com/contextstream/mcp-server) (43 stars at review; site HTTP 200; MCP endpoint HTTP 405 on GET). Spam Guard CI failed because GitHub Search cannot query `author:escott-` (hyphenated login), not because of a blast campaign. Manually incorporated in en/zh/ja under Agent Memory with `⚠️ Unverified` (stars below 100, independent production adoption not established). Dropped the marketing slogan from the PR body. Closed as manually incorporated, with credit. |
+| [#99](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/99) | @johnxie | Taskade Genesis at https://www.taskade.com/create is a real product (HTTP 200). Declined under the five-or-more-list parallel-submission rule: Spam Guard reported 26 awesome-* PRs / 51 PRs in 14 days and an identical title across 50 repos. Other-list merges do not waive the rule. |
+
+**+Added:**
+- **ContextStream** (Agent Memory) — hosted MCP shared project context for Cursor / Claude Code / Codex; MIT server; Unverified.
+
 ### 2026-09-08 — source-backed catalogue, translation and maintenance refresh (en/zh/ja)
 
 Maintained by **Zijian Ni**. The three catalogues now contain **916 / 916 / 916
